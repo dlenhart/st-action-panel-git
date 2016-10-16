@@ -1,7 +1,7 @@
 /*
  * Copyright 2016
  * Released under the MIT license
- * https://github.com/snowytech/st-action-panel
+ * https://github.com/snowytech/st-action-panel-git
  *
  * @author: Drew D. Lenhart
  * @version: 0.0.1
