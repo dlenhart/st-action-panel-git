@@ -15,13 +15,17 @@ JQuery
 
 1.  Download code.
 
-2.  Include CSS in HTML: **<link rel="stylesheet" type="text/css" href="css/st.action-panel.css" />**
+2.  Include CSS in HTML:
 
-3.  Include JS file in HTML ( after jQuery reference ): **<script src="js/st.action-panel.js"></script>**
+```<link rel="stylesheet" type="text/css" href="css/st.action-panel.css" />```
+
+3.  Include JS file in HTML ( after jQuery reference ): 
+
+```<script src="js/st.action-panel.js"></script>```
 
 4.  Set up HTML:
 
-**
+```
 <div class="st-actionContainer right-bottom">
 <div class="st-panel">
 <div class="st-panel-header"><i class="fa fa-bars" aria-hidden="true"></i> Menu</div>
@@ -33,7 +37,7 @@ Put some contents here!
 <div class="st-button-main"><i class="fa fa-bars" aria-hidden="true"></i></div>
 </div>
 </div>
-**
+```
 
 5.  Call plugin: **$('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );** ( Settings are optional, {rotate: false} turns off button spin )
 
