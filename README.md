@@ -13,17 +13,15 @@ JQuery
 
 #Usage
 
-1.  Download code.
-
-2.  Include CSS in HTML:
+**-  Include CSS in HTML:**
 
 ```<link rel="stylesheet" type="text/css" href="css/st.action-panel.css" />```
 
-3.  Include JS file in HTML ( after jQuery reference ): 
+**-  Include JS file in HTML ( after jQuery reference ):**
 
 ```<script src="js/st.action-panel.js"></script>```
 
-4.  Set up HTML:
+**-  Set up HTML:**
 
 ```
 <div class="st-actionContainer right-bottom">
@@ -39,9 +37,11 @@ Put some contents here!
 </div>
 ```
 
-5.  Call plugin: **$('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );** ( Settings are optional, {rotate: false} turns off button spin )
+**-  Call plugin:**
 
-6.  Adjust CSS to your liking.  See **index.html** for example.
+**$('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );** ( Settings are optional, {rotate: false} turns off button spin )**
+
+-  Adjust CSS to your liking.  See **index.html** for example.
 
 
 #Website
