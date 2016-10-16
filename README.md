@@ -39,7 +39,7 @@ Put some contents here!
 
 **-  Call plugin:**
 
-**$('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );** ( Settings are optional, {rotate: false} turns off button spin )**
+**$('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );** ( Settings are optional, {rotate: false} turns off button spin )
 
 -  Adjust CSS to your liking.  See **index.html** for example.
 
