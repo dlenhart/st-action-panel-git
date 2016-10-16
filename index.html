@@ -1,0 +1,60 @@
+<!--
+Author: Drew D. Lenhart
+Author URI: http://www.drewlenhart.com
+Project: st-action-panel
+ProjectURL: https://github.com/snowytech/st-action-panel
+Date: October 2016
+-->
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>st-action-panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/st.action-panel.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head> 
+<body style="background-color: #95a5a6">
+
+<div class="pageContainer">
+<p style="margin-left: 20%; margin-right: 20%">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu finibus lorem, vel consequat libero. Pellentesque pulvinar molestie facilisis. Aliquam dolor lacus, iaculis nec dignissim et, luctus sed eros. Duis convallis ligula vel urna rutrum, eget interdum neque facilisis. Nullam nec sodales ex, ac rhoncus libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur aliquam vel magna sit amet posuere. Nunc sit amet orci ante. Phasellus condimentum tortor pulvinar imperdiet facilisis. Phasellus eu ligula ac quam mollis tincidunt imperdiet quis velit. Sed in ex consequat felis aliquam hendrerit vitae sit amet sem.
+
+Quisque venenatis facilisis tincidunt. Aliquam aliquam scelerisque feugiat. Quisque malesuada luctus ex, id viverra neque egestas in. Curabitur sagittis euismod lorem, et pellentesque nisl aliquet et. Morbi ac aliquet felis. Maecenas varius id libero et tristique. Donec semper ante commodo ante volutpat cursus. Integer eget mi lectus. Proin sollicitudin condimentum sem, quis hendrerit est pretium id. Pellentesque pretium, dolor vel dapibus fringilla, odio tellus lacinia velit, dictum blandit urna turpis quis est. Praesent et libero imperdiet libero suscipit blandit.
+
+Nam vel placerat enim. Ut sit amet cursus nibh, nec consequat eros. Nunc ac elit ullamcorper, accumsan libero sit amet, laoreet tellus. Vivamus sit amet odio gravida, ullamcorper diam at, vulputate nunc. Integer lobortis est sit amet dolor scelerisque egestas. Vestibulum quis magna sit amet tellus egestas porta ut nec velit. Phasellus condimentum ipsum efficitur, aliquam purus ac, faucibus dolor. Vivamus dictum consequat consectetur. Praesent lobortis sodales viverra. Curabitur sagittis orci lectus, ac convallis diam facilisis ut.</p>
+
+<div class="st-actionContainer right-bottom">
+	<div class="st-panel">
+		<div class="st-panel-header"><i class="fa fa-bars" aria-hidden="true"></i> Menu</div>
+		<div class="st-panel-contents">	
+			Put menu or icon links here!<br /><br />
+			Or make a grid:
+		</div>
+		<div class="grid">
+				<a href="#" class="gridChild"><i class="fa fa-cubes" aria-hidden="true"></i></a>
+				<a href="#" class="gridChild"><i class="fa fa-database" aria-hidden="true"></i></a>			
+				<a href="#" class="gridChild"><i class="fa fa-send" aria-hidden="true"></i></a>
+				<a href="#" class="gridChild"><i class="fa fa-tag" aria-hidden="true"></i></a>
+				<a href="#" class="gridChild"><i class="fa fa-trophy" aria-hidden="true"></i></a>				
+				<a href="#" class="gridChild"><i class="fa fa-user" aria-hidden="true"></i></a>
+				<a href="#" class="gridChild"><i class="fa fa-file" aria-hidden="true"></i></a>
+				<a href="#" class="gridChild"><i class="fa fa-table" aria-hidden="true"></i></a>				
+				<a href="#" class="gridChild"><i class="fa fa-eject" aria-hidden="true"></i></a>		
+			</div>
+	</div>
+	<div class="st-btn-container right-bottom">
+		<div class="st-button-main"><i class="fa fa-bars" aria-hidden="true"></i></div>
+	</div>
+</div>
+
+</div>
+</body>
+
+<script src="js/st.action-panel.js"></script>
+<script>
+$(document).ready(function(){
+	$('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );
+});
+</script>
+</html>
