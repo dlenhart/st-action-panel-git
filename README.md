@@ -40,7 +40,7 @@ Put some contents here!
 Call plugin
 ----
 ```
-**$('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );** 
+$('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );
 ```
 
 ( Settings are optional, {rotate: false} turns off button spin )
