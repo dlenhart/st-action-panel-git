@@ -3,16 +3,16 @@ st-action-panel
 
 A small JQuery plugin for a floating action button which displays a small menu panel.  Features options for open duration, close duration, and rotate.
 
-Demo:  http://snowytech.com/data/st-action-panel
+Demo:  https://snowytech.github.io/data/st-action-panel/
 
 
-#Required
-
+Required
+----
 JQuery
 
 
-#Usage
-
+Usage
+----
 **-  Include CSS in HTML:**
 
 ```<link rel="stylesheet" type="text/css" href="css/st.action-panel.css" />```
@@ -37,17 +37,23 @@ Put some contents here!
 </div>
 ```
 
-**-  Call plugin:**
+Call plugin
+----
+```
+**$('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );** 
+```
 
-**$('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );** ( Settings are optional, {rotate: false} turns off button spin )
+( Settings are optional, {rotate: false} turns off button spin )
 
 -  Adjust CSS to your liking.  See **index.html** for example.
 
 
-#Website
-http://snowytech.com/drewlenhart
+Website
+----
+http://www.drewlenhart.com/
 
-#License
+License
+----
 MIT License
 
 Copyright (c) 2016 Drew D. Lenhart
