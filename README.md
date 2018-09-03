@@ -3,7 +3,7 @@ st-action-panel
 
 A small JQuery plugin for a floating action button which displays a small menu panel.  Features options for open duration, close duration, and rotate.
 
-Demo:  https://snowytech.github.io/data/st-action-panel/
+Demo:  https://dlenhart.github.io/data/st-action-panel/
 
 
 Required
