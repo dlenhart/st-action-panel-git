@@ -58,6 +58,14 @@ div.st-panel{
 	text-align:center;
 	line-height:60px;
 	cursor:pointer;
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+.st-button-main > i{
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .st-btn-container{
