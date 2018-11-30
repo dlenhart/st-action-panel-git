@@ -25,15 +25,15 @@ Usage
 
 ```
 <div class="st-actionContainer right-bottom">
-<div class="st-panel">
-<div class="st-panel-header"><i class="fa fa-bars" aria-hidden="true"></i> Menu</div>
-<div class="st-panel-contents">	
-Put some contents here!
-</div>
-</div>
-<div class="st-btn-container right-bottom">
-<div class="st-button-main"><i class="fa fa-bars" aria-hidden="true"></i></div>
-</div>
+	<div class="st-panel">
+		<div class="st-panel-header"><i class="fa fa-bars" aria-hidden="true"></i> Menu</div>
+		<div class="st-panel-contents">
+			Put some contents here!
+		</div>
+	</div>
+	<div class="st-btn-container right-bottom">
+		<div class="st-button-main"><i class="fa fa-bars" aria-hidden="true"></i></div>
+	</div>
 </div>
 ```
 
